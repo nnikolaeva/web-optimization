@@ -440,7 +440,7 @@ var resizePizzas = function(size) {
     }
 
     changeSliderLabel(size);
-
+    // Change the size of the pizza image
     function changePizzaSizes(size) {
         var newwidth;
         switch (size) {
@@ -456,7 +456,6 @@ var resizePizzas = function(size) {
             default:
                 console.log("bug in sizeSwitcher");
         }
-
 
         var pizzaContainers = document.getElementsByClassName("randomPizzaContainer");
         var pizzaContainersLength = pizzaContainers.length;
