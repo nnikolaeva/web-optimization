@@ -21,7 +21,8 @@
 2. Change document.body.scrollTop to window.scrollY.
 3. Remove determineDx function and calculate newwidth in percent.
 4. Change querySelectorAll() to getElementsByClassName() to increase performance.
-5. Reduce the number of sliding pizzas.
+5. Change querySelector() to getElementById() to increase performance.
+6. Reduce the number of sliding pizzas.
 
 
 
