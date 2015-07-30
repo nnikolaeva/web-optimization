@@ -5,9 +5,15 @@
 1. Download all files.
 2. Open index.html in your favorite browser.
 
-####HOW TO GENERATE PRODUCTION FILE
+####BUILD TOOL
 
-1. run pathTo/minify_script in terminal.
+1. In terminal change directory to project directory
+2. Run gulp
+3. gulpfile.js will run the following tasks: 
+   a. lint and minify js files and save them in js directory
+   b. minify css files and save them in css directory
+   c. compress images and save them in images directory
+
 
 ####OPTIMIZATION THAT WAS MADE IN VIEWS/JS/MAIN.JS
 

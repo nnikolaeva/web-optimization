@@ -1,8 +1,0 @@
-#!/bin/bash
-# Script compresses js and css files and write them to minified files which used by index.html and pizza.html
-
-files="css/print.css css/smartphones.css css/style.css"
-for file in $files; do java -jar yuicompressor-2.4.8.jar $file -o ./min/$file --charset utf-8; done;
-
-files="views/js/main.js views/css/bootstrap-grid.css views/css/style.css"
-for file in $files; do java -jar yuicompressor-2.4.8.jar $file -o ./views/min/$file --charset utf-8; done;
