@@ -1,6 +1,6 @@
 /*
-Optimization that was maid in main.js:
-1. Move scrollTop variable out of the for loop.
+Optimization that was made in main.js:
+1. Move scrollTop variable outside the for loop.
 2. Change document.body.scrollTop to window.scrollY.
 3. Remove determineDx function and calculate newwidth in percent.
 4. Change querySelectorAll() to getElementsByClassName() to increase performance.
